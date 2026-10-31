@@ -179,3 +179,5 @@ nav.open{visibility:visible;opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){.portrait,.ld{animation:none}}
 .tg{justify-self:start;margin-top:.4rem;padding:1.1rem 1.9rem}.tg svg{width:20px;height:20px;margin-right:.7rem;flex:none}
 .rcol{display:grid;gap:1rem}.sample .soon{border:1.5px dashed rgba(245,243,238,.3);border-radius:14px;padding:1.1rem 1.4rem;text-align:center;color:#a29f98;font-size:.95rem}
+/* Intro logo size: change the numbers in clamp(min, preferred, max) to make it bigger or smaller */
+.curtain img{height:clamp(120px,24vw,220px);width:auto}
